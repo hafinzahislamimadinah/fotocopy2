@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PrintPOS — hafinzahfotocopy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-icon">🖨️</div>
+        <div>
+          <h1>PrintPOS</h1>
+          <span>hafinzahfotocopy</span>
+        </div>
+      </div>
+
+      <nav>
+        <button class="nav-item active" data-page="dashboard">⌂ <span>Beranda</span></button>
+        <button class="nav-item" data-page="kasir">🛒 <span>Kasir</span></button>
+        <button class="nav-item" data-page="produk">📦 <span>Produk</span></button>
+        <button class="nav-item" data-page="pelanggan">👥 <span>Pelanggan</span></button>
+        <button class="nav-item" data-page="laporan">📊 <span>Laporan</span></button>
+        <button class="nav-item" data-page="keuangan">💳 <span>Keuangan</span></button>
+        <button class="nav-item" data-page="pengaturan">⚙️ <span>Pengaturan</span></button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="store-dot"></div>
+        <div><b>hafinzahfotocopy</b><small>Online</small></div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <button id="menuBtn" class="icon-btn mobile-only">☰</button>
+        <div>
+          <p class="eyebrow">Sistem Kasir & Manajemen</p>
+          <h2 id="pageTitle">Beranda</h2>
+        </div>
+        <div class="top-actions">
+          <div class="search">⌕ <input id="globalSearch" placeholder="Cari..." /></div>
+          <button class="icon-btn">🔔</button>
+          <div class="avatar">HF</div>
+        </div>
+      </header>
+
+      <section id="content"></section>
+    </main>
+  </div>
+
+  <div id="toast" class="toast"></div>
+  <div id="modal" class="modal hidden">
+    <div class="modal-card">
+      <button class="modal-close" id="closeModal">×</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
