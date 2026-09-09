@@ -1,29 +1,30 @@
-# PrintPOS — hafinzahfotocopy
+# HafinzahFotocopy PrintPOS
 
-Aplikasi kasir (POS) sederhana untuk usaha fotocopy & print, dibuat dengan HTML, CSS, dan JavaScript murni.
+Aplikasi POS/kasir berbasis HTML, CSS, dan JavaScript.
 
 ## Fitur
 - Dashboard penjualan
-- Kasir / keranjang belanja
-- Pembayaran dan pembuatan transaksi
-- CRUD sederhana produk
-- Data pelanggan
-- Laporan penjualan
-- Keuangan
+- Transaksi / keranjang POS
+- Produk & layanan
+- Pelanggan
+- Stok barang
+- Laporan + export CSV
+- Cetak laporan
 - Pengaturan toko
-- Responsive untuk desktop dan mobile
-- Tanpa backend/database, data aktif selama halaman dibuka
+- Dark mode
+- Responsive untuk desktop/tablet/mobile
+- LocalStorage sehingga bisa dipakai tanpa database
+- Favicon HF bertema soft red
+- PWA manifest untuk instalasi sebagai aplikasi web
 
 ## Cara menjalankan
-1. Ekstrak ZIP.
-2. Buka `index.html` di browser.
-3. Untuk GitHub Pages, upload `index.html`, `style.css`, dan `script.js` ke repository.
-4. Aktifkan GitHub Pages dari Settings → Pages → Deploy from branch.
+1. Extract ZIP.
+2. Buka folder di Visual Studio Code.
+3. Buka `index.html` dengan Chrome, atau gunakan Live Server.
+4. Data akan tersimpan otomatis di browser.
 
-## Struktur
-- `index.html` — halaman utama
-- `style.css` — desain dan responsive layout
-- `script.js` — logika aplikasi
+## GitHub Pages
+Upload semua file ke repository GitHub, lalu aktifkan GitHub Pages dari Settings > Pages dan pilih branch yang digunakan.
 
 ## Catatan
-Versi ini adalah prototype frontend. Untuk aplikasi produksi, tambahkan backend/database, autentikasi pengguna, backup data, dan integrasi printer/struk sesuai kebutuhan.
+Data transaksi tersimpan di browser/perangkat yang digunakan. Ini cocok untuk prototype/tugas dan penggunaan lokal sederhana; untuk sistem kasir multi-user sungguhan diperlukan backend/database.

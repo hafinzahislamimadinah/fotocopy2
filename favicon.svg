@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+<rect width="128" height="128" rx="30" fill="#d85c67"/>
+<rect x="25" y="43" width="78" height="50" rx="9" fill="#fff"/>
+<path d="M34 43V31c0-5 4-9 9-9h42c5 0 9 4 9 9v12" fill="none" stroke="#fff" stroke-width="10" stroke-linejoin="round"/>
+<rect x="39" y="65" width="50" height="25" rx="4" fill="#d85c67"/>
+<path d="M43 73h42M43 81h30" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+<circle cx="92" cy="54" r="5" fill="#d85c67"/>
+<text x="64" y="116" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="900" fill="#fff">HF</text>
+</svg>

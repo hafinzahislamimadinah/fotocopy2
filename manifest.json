@@ -1,0 +1,16 @@
+{
+  "name": "HafinzahFotocopy PrintPOS",
+  "short_name": "HF PrintPOS",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f8f8fa",
+  "theme_color": "#d85c67",
+  "description": "Point of Sale untuk usaha HafinzahFotocopy.",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
